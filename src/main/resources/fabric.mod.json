@@ -3,9 +3,9 @@
 	"id": "pvptweaks",
 	"version": "${version}",
 	"name": "PvPTweaks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Minecraft 1.20.1 PvPTweaks Fabric Mod",
 	"authors": [
-		"Me!"
+		"Lightre"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.lightre.pvptweaks.PvPTweaks"
+		],
+		"client": [
+			"com.lightre.pvptweaks.PvPTweaksClient"
 		],
 		"fabric-datagen": [
 			"com.lightre.pvptweaks.PvPTweaksDataGenerator"
